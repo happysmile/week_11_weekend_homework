@@ -4,10 +4,10 @@ import java.util.HashMap;
 public class Flight {
     private ArrayList<Passenger> passengers;
     private Plane plane;
-    String flightNumber;
-    HashMap<String, String> toAirport;
-    HashMap<String, String> fromAirport;
-    String departureDateTime;
+    private String flightNumber;
+    private HashMap<String, String> toAirport;
+    private HashMap<String, String> fromAirport;
+    private String departureDateTime;
 
     public Flight(Plane plane, String flightNumber, HashMap<String, String> toAirport, HashMap<String, String> fromAirport, String departureDateTime) {
         this.passengers = new ArrayList<Passenger>();
